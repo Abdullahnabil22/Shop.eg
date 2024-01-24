@@ -162,10 +162,73 @@ body{
     color: #fff;
     text-align: center;
 }
+#login-container {
+    width: 300px;
+    margin: 85px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#login-container h2 {
+    text-align: center;
+    color: #003973;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    margin-bottom: 5px;
+    color: #003973;
+}
+
+#login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #003973;
+    border-radius: 5px;
+}
+
+#login-form button {
+    padding: 10px;
+    background: #003973;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background: #002659;
+}
+#about-container {
+    width: 80%;
+    margin: 175px auto;
+    padding: 20px;
+    background: rgba(255, 255,255,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#about-container h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#about-content {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
 footer {
     background: #031e39;
     color: #fff;
-    /* text-align: center; */
     position: relative;
     margin-top: 60px;
     width: 100%;
