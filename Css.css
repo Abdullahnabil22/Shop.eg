@@ -31,7 +31,6 @@ body{
     font-weight: 700;
 }
 #header ul li{
-    
     display: inline-block;
     margin: 0 6px;
 }
@@ -44,21 +43,18 @@ body{
 #header a button{
     border: none;
     outline: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background: #031e39;
-    color: white;
+    padding: 15px 15px;
+    border-radius: 100%;
+    background: #082256;
     cursor: pointer;
-    font-weight: bold;
 }
 #header a button:hover{
     background: #003973;
 }
 #header a img{
-    width: 45px;
-    height: 36px;
-    margin-left: -37px;
-    padding: 0;
+    width: 30px;
+    height: 30px;
+    filter:invert(100%);
 } 
 #header ul li a:hover{
     color:#031e39
